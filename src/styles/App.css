@@ -1,0 +1,56 @@
+/* App.css */
+
+/* Global styles for text and layout */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Navbar Styles */
+  .navbar-brand {
+    color: #ff7e5f !important;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333 !important;
+    font-weight: 600;
+  }
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  .btn-custom {
+    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #e55e4a;
+  }
+  
