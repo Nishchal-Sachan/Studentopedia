@@ -121,7 +121,14 @@ function Home() {
 
   useEffect(() => {
     axios.get("/events")
-      .then((response) => setEvents(response.data))
+    .then((response) => {
+      console.log("Events API Response:", response.data);
+      if (Array.isArray(response.data)) {
+        setEvents(response.data);
+      } else {
+        setEvents([]); // Prevent `.map()` error
+      }
+    })
       .catch(() => {
         setEvents([
           {
